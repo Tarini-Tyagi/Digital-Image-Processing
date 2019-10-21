@@ -102,11 +102,12 @@ Use histeq(), imhist(), subplot(), etc
 	9		1	1	1
 
 and show that it perform averaging operation which results in blurring the image. Also analyze the impact of increasing the size of mask to 5 X 5 as shown:
- 	1	1	1	1	1
-1/ X	1	1	1	1	1
-25	1	1	1	1	1
-	1	1	1	1	1
-	1	1	1	1	1
+
+	 	1	1	1	1	1
+	1/  X	1	1	1	1	1
+	25	1	1	1	1	1
+		1	1	1	1	1
+		1	1	1	1	1
         
 # 23.	Read an image and then corrupt the image by salt-and-pepper noise and Gaussian noise. 
 Then apply an averaging filter of size 3 X 3 and 5 X 5 to this corrupted image. Comment on the result obtained.
@@ -141,7 +142,7 @@ Use surf() for 3D view.
 34.	Read an image and detect edges using different edge detectors like Robert, Sobel, Prewitt, Log, Canny.
 Use edge( ).
 
-# ...........................................................................................................................	
+# .................................................................................................................	
      
 
 
