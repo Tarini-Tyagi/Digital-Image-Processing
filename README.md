@@ -22,7 +22,8 @@ y= (t-1)/(t+1),     z= (sin (t2) )/ t2
 # 4.	All points with coordinates x = r cos θ  and  y = r sin θ , where r is a constant, lie on a circle with radius r. 
 Create a column vector for θ with the values 0, π/4, π/2, 3π/4, π and 5π/4, 3π/2, 7π/4, 2π. Compute x, y and  x2 + y2 for every value of  θ and display them as column vectors.Take r=2.
 
-# 5.	Plot for x and y in Q2 & Q4. Give suitable title of the plots. Also annotate the axes in both plots. Try the command axis(‘equal’) and comment. Mark the points by ‘o’. Both plots must be displayable simultaneously.
+# 5.	Plot for x and y in Q2 & Q4. Give suitable title of the plots. Also annotate the axes in both plots. 
+Try the command axis(‘equal’) and comment. Mark the points by ‘o’. Both plots must be displayable simultaneously.
 
 6.	Modify Q4 by taking the interval for  θ as π/12 and then plot the circle.
 
@@ -100,15 +101,15 @@ Use histeq(), imhist(), subplot(), etc
 	1/	X	1	1	1
 	9		1	1	1
 
-and show that it perform averaging operation which results in blurring the image. Also analyze the impact of increasing the size of mask to 5 X 5 as shown
-
+and show that it perform averaging operation which results in blurring the image. Also analyze the impact of increasing the size of mask to 5 X 5 as shown:
  	1	1	1	1	1
 1/ X	1	1	1	1	1
 25	1	1	1	1	1
 	1	1	1	1	1
 	1	1	1	1	1
         
-# 23.	Read an image and then corrupt the image by salt-and-pepper noise and Gaussian noise. Then apply an averaging filter of size 3 X 3 and 5 X 5 to this corrupted image. Comment on the result obtained.
+# 23.	Read an image and then corrupt the image by salt-and-pepper noise and Gaussian noise. 
+Then apply an averaging filter of size 3 X 3 and 5 X 5 to this corrupted image. Comment on the result obtained.
 Use imnoise()
 
 # 24.	Read an image, then corrupt the image using ‘salt-and-pepper’ noise. Now apply a 3 X 3 averaging filter and median filter. Comment on the result.
@@ -140,7 +141,7 @@ Use surf() for 3D view.
 34.	Read an image and detect edges using different edge detectors like Robert, Sobel, Prewitt, Log, Canny.
 Use edge( ).
 
-# .....................................................................................................................................	
+# ...........................................................................................................................	
      
 
 
